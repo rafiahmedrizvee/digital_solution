@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  --color-primary: #F9F8F5;   
+  --color-secondary: #202023; 
+  --color-accent: #20202399;    
+  --color-background: #f8fafc;
+  --color-text: #0f172a;     
+}
