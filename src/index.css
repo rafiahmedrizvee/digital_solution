@@ -14,3 +14,44 @@ body {
   --color-background: #f8fafc;
   --color-text: #0f172a;     
 }
+/* Infinite Vertical Scroll Animation */
+@keyframes scrollY {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.scroll-wrapper {
+  display: flex;
+  flex-direction: column;
+  animation: scrollY 12s linear infinite;
+}
+
+/* Infinite Horizontal Scroll Animation */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
