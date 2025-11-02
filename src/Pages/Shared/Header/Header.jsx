@@ -11,16 +11,16 @@ const Header = () => {
         <a href="#about" >About</a>
       </li >
       <li className="text-[14px] font-plus jakarta sans font-medium ">
-        <NavLink to="/project">Projects</NavLink>
+        <a href="#project" >Projects</a>
       </li>
       <li className="text-[14px] font-plus jakarta sans font-medium ">
-        <NavLink to="/service">Services</NavLink>
+        <a href="#service" >Services</a>
       </li>
       <li className="text-[14px] font-plus jakarta sans font-medium ">
-        <NavLink to="/price">Price</NavLink>
+       <a href="#price" >Price</a>
       </li>
       <li className="text-[14px] font-plus jakarta sans font-medium ">
-        <NavLink to="/blog">Blog</NavLink>
+        <a href="#blog" >Blog</a>
       </li>
     </React.Fragment>
   );

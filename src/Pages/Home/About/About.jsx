@@ -17,7 +17,7 @@ const fadeUp = (delay = 0) => ({
 
 const About = () => {
   return (
-    <section className=" bg-secondary text-primary py-20 px-2 md:px-6 lg:px-6">
+    <section id="about" className=" bg-secondary text-primary py-20 px-2 md:px-6 lg:px-6">
       <div className="  items-start">
         {/* Left Animated Text */}
         <motion.div

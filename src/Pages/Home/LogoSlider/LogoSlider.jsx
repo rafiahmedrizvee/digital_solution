@@ -1,10 +1,10 @@
 import React from "react";
 
 const logos = [
-  "/src/assets/logo/Logo.png",
-  "/src/assets/logo/Logo (1).png",
-  "/src/assets/logo/Logo (2).png",
-  "/src/assets/logo/Logo (3).png",
+"/logo/Logo.png ",
+"/logo/Logo (1).png ",
+"/logo/Logo (2).png ",
+"/logo/Logo (3).png ",
 
 ];
 

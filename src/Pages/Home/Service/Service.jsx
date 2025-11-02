@@ -1,15 +1,19 @@
 import React from "react";
 
+
+
+
 const images = [
-  "/src/assets/images/pic1.png",
-  "/src/assets/images/pic2.png",
-  "/src/assets/images/pic3.png",
-  
+  "/images/pic1.png",
+  "/images/pic2.png",
+  "/images/pic3.png",
 ];
+
+  
 
 const Service = () => {
   return (
-    <section className="w-full bg-primary py-20 px-2 md:px-5 flex flex-col md:flex-row gap-10">
+    <section id="service" className="w-full bg-primary py-20 px-2 md:px-5 flex flex-col md:flex-row gap-10">
       {/* LEFT SIDE - AUTO SCROLL IMAGES */}
       <div className="w-full md:w-1/2 h-[550px] overflow-hidden relative">
         <div className="scroll-wrapper">

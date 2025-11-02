@@ -6,19 +6,19 @@ const testimonials = [
     name: "Andy Styles",
     role: "Founder of a Tech Startup",
     text: "We needed a full rebranding, and this agency delivered beyond our expectations. From the new logo to the website design, everything feels cohesive and professional.",
-    image: "/src/assets/images/andy.jpg",
+    image: "/images/andy.jpg",
   },
   {
     name: "Rafi Ahmed",
     role: "Marketing Director",
     text: "Their team completely transformed our online presence. The attention to detail and creativity were outstanding.",
-    image: "/src/assets/images/rafi.jpg",
+    image: "/images/rafi.jpg",
   },
   {
     name: "Rizvee",
     role: "Product Designer",
     text: "Superb experience working with them. They understood our brand instantly and brought it to life beautifully.",
-    image: "/src/assets/images/rizvee.png",
+    image: "/images/rizvee.png",
   },
 ];
 
@@ -41,7 +41,7 @@ const Testimonial = () => {
   };
 
   return (
-    <section className="w-full bg-primary py-12">
+    <section id="blog" className="w-full bg-primary py-12">
       <div className="max-w-5xl mx-auto ">
         <h2 className="text-[36px] font-medium mb-2">(Testimonials)</h2>
         <p className="text-secondary text-[16px] mb-6">What people say</p>

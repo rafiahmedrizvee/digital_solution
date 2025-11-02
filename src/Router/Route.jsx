@@ -5,7 +5,7 @@ import About from "../Pages/Home/About/About";
 import Service from "../Pages/Home/Service/Service";
 import Project from "../Pages/Home/Project/Project";
 import Price from "../Pages/Home/Price/Price";
-import Blog from "../Pages/Home/Blog/Blog";
+import Testimonial from "../Pages/Home/Testimonial/Testimonial";
 
 
 const router = createBrowserRouter([
@@ -22,25 +22,25 @@ const router = createBrowserRouter([
                         element: <Home></Home>,
                 },
                 {
-                        path: "/about",
+                        path: "#about",
                         element: <About></About>,
                 },
                 {
-                        path: "/project",
+                        path: "#project",
                         element: <Project></Project>,
                 },
                 
                 {
-                        path: "/service",
+                        path: "#service",
                         element: <Service></Service>,
                 },
                 {
-                        path: "/price",
+                        path: "#price",
                         element: <Price></Price>,
                 },
                 {
-                        path: "/blog",
-                        element: <Blog></Blog>,
+                        path: "#blog",
+                        element: <Testimonial></Testimonial>,
                 },
             ]
         }
